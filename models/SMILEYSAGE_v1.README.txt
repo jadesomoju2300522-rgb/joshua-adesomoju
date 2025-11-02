@@ -1,0 +1,8 @@
+SMILEYSAGE_v1 (placeholder)
+
+The live app defaults to the pre-trained model bundled in the `fer` Python package.
+If you need a local weight file to ship with the submission, run `python model.py`
+after placing a dataset in ./data/train (with subfolders per class). It will save
+a toy Keras model to this same folder as `SMILEYSAGE_v1.keras`.
+
+This file exists to document that requirement and explain how to produce the artifact.
